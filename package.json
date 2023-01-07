@@ -1,0 +1,24 @@
+{
+  "name": "docker-example-node",
+  "version": "1.0.0",
+  "description": "How to dockerize a Node.js application?",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/tb-soft/docker-example-node.git"
+  },
+  "keywords": [
+    "docker",
+    "node.js"
+  ],
+  "author": "Bokang Huang <huangbokang@tb-soft.net>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
