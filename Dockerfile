@@ -1,3 +1,8 @@
+### Dockerfile 就是一个编译 Docker 镜像的脚本
+### 编写 Dockerfile 时，想象自己在一台干净的基础镜像上，需要哪些：
+### 1. 必要的源代码 2. 安装软件依赖的步骤
+### 以构建一个可执行的应用镜像？
+
 # 选择 node:lts-slim 作为基础镜像
 FROM node:lts-slim
 
